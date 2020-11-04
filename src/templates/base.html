@@ -8,8 +8,7 @@
     <!-- jQuery -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!--Custom css-->
-    
-    <link rel="stylesheet" type='text/css' href={% static 'style.css' %}>
+    <link rel="stylesheet" type="text/css" href={% static 'style.css' %}>
     <!-- semantic UI -->
     <link rel="stylesheet" type='text/css' href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.14/semantic.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
@@ -18,8 +17,7 @@
     <title>bffbook - {% block title %}{% endblock title %}</title>
   </head>
   <body>
-
-    {% include 'main/navbar.html'%}
+    {% include 'main/navbar.html' %}
     <div class="ui container">
       {% block content %}
       {% endblock content %}
@@ -28,8 +26,7 @@
     {% block scripts %}
     {% endblock scripts %}
    
-   <!--Custom js-->
-
+   <!--Custom js ADD-->
    <script type="text/javascript" src={% static 'main.js' %}></script>
 
   </body>
